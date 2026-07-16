@@ -23,17 +23,17 @@
 1. Скачайте скрипт в удобную для вас директорию (например, `~/scripts/`):
    ```bash
    mkdir -p ~/scripts
-   curl -o ~/scripts/git_commit_helper.py [https://raw.githubusercontent.com/ВАШ_НИК/ВАШ_РЕПОЗИТОРИЙ/main/git_commit_helper.py](https://raw.githubusercontent.com/ВАШ_НИК/ВАШ_РЕПОЗИТОРИЙ/main/git_commit_helper.py)
+   curl -o ~/scripts/git_commit_helper.py [https://raw.githubusercontent.com/Exempale/Git-Commit-Helper/main/main.py](https://raw.githubusercontent.com/Exempale/Git-Commit-Helper/main/main.py)
    ```
 
 2. Сделайте фаил испольным (для Linux / macOS):
    ```баш
-   chmod +x ~/scripts/git_commit_helper.py
+   chmod +x ~/scripts/main.py
    ```
 
 3. Создайте алиас (псевдоним) для быстрого вызова. Добавьте следующую строку в ваш `~/.bashrc` или `~/.zshrc`:
    ```баш
-   псевдоним gch="python3 ~/scripts/git_commit_helper.py"
+   псевдоним gch="python3 ~/scripts/main.py"
    ```
 
 4. Обновите конфигурацию терминала:
